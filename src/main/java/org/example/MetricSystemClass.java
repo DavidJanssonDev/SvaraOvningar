@@ -67,8 +67,5 @@ public class MetricSystemClass {
         } while (valueOne == null);
 
         return valueOne;
-
     }
-
-
 }
