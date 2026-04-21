@@ -47,7 +47,7 @@ public class Main {
     }
 
     public static String GetUserInput(String[] allowedPhrases, String InputQuestion) {
-        String userAwnser = "";
+        String userAwnser;
         do {
             System.out.println(InputQuestion);
             userAwnser = UserInputScanner.nextLine().toLowerCase(Locale.ROOT);

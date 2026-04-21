@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fd4373a-5828-47f8-9266-12ac6509bb2d" name="Changes" comment="">
+    <list default="true" id="9fd4373a-5828-47f8-9266-12ac6509bb2d" name="Changes" comment="Clean it up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ImperialSystemClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ImperialSystemClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
@@ -68,9 +68,22 @@
       <option name="presentableId" value="Default" />
       <updated>1776768520693</updated>
     </task>
+    <task id="LOCAL−00001" summary="Clean it up">
+      <option name="closed" value="true" />
+      <created>1776778595625</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1776778595625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Clean it up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean it up" />
   </component>
 </project>

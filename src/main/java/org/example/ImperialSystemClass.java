@@ -30,7 +30,7 @@ public class ImperialSystemClass {
 
     public void Run(Scanner userInput) {
         Double valueOne = null;
-        String functionValue = null;
+        String functionValue;
         valueOne = GetUserValue(userInput, valueOne);
 
         System.out.println("What converter do you want to use? ");
@@ -60,9 +60,7 @@ public class ImperialSystemClass {
                 String temp_valueOne = userInput.nextLine();
 
                 valueOne = Double.parseDouble(temp_valueOne);
-            } catch (NumberFormatException e) {
-                continue;
-            }
+            } catch (NumberFormatException _){}
         } while (valueOne == null);
 
         return valueOne;
