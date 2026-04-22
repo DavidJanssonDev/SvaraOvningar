@@ -5,7 +5,6 @@ import java.util.Scanner;
 public abstract class AbstractConverterSystem {
     public final ConverterConstant CONSTANT = new ConverterConstant();
 
-
     public double GetUserValue(Scanner userInput, Double valueOne) {
         do {
             try {
