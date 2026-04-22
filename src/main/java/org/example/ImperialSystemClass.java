@@ -3,28 +3,23 @@ package org.example;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ImperialSystemClass {
-
-    public final double FAMNAR_CONST = 182.88;
-    public final double ALNAR_CONST = 59.38;
-    public final double TUM_CONST = 2.54;
-    public final double FOT_CONST = 30.48;
+public class ImperialSystemClass extends AbstractConverterSystem{
 
 
     public double CmToFamnar(double cm) {
-        return cm/FAMNAR_CONST;
+        return cm/this.CONSTANT.FAMNAR_CONST;
     }
 
     public double CmToAlnar(double cm) {
-        return cm/ALNAR_CONST;
+        return cm/this.CONSTANT.ALNAR_CONST;
     }
 
     public double CmToTum(double cm) {
-        return cm/TUM_CONST;
+        return cm/this.CONSTANT.TUM_CONST;
     }
 
     public double CmToFot(double cm) {
-        return cm/FOT_CONST;
+        return cm/this.CONSTANT.FOT_CONST;
     }
 
 
@@ -53,17 +48,5 @@ public class ImperialSystemClass {
         System.out.println("Reslutat: " + result);
     }
 
-    private static double GetUserValue(Scanner userInput, Double valueOne) {
-        do {
-            try {
-                System.out.println("Converted value (CM):");
-                String temp_valueOne = userInput.nextLine();
 
-                valueOne = Double.parseDouble(temp_valueOne);
-            } catch (NumberFormatException _){}
-        } while (valueOne == null);
-
-        return valueOne;
-
-    }
 }

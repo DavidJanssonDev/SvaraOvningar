@@ -23,6 +23,7 @@ public class Main {
     static void main() {
         SetUpSystems();
 
+
         SelectedSystem = ChoiceBetweenSystem();
         switch (SelectedSystem) {
             case SystemsEnum.IMPERIAL_SYSTEM:
